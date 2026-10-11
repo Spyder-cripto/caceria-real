@@ -12,7 +12,7 @@ maestro. Juego web autónomo en un único `index.html`.
 - El **asesino** es la única persona que estaba en la misma zona que la víctima.
 - **Ninguna zona se quedó vacía.**
 - No se puede estar en una casilla con un objeto, salvo los que se ocupan (sillas, caballos, hamacas…).
-- «Al lado de» es arriba, abajo, a la izquierda o a la derecha; «al este», más a la derecha; «al norte», más arriba.
+- «Al lado de» es arriba, abajo, a la izquierda o a la derecha; «al este de», en cualquier columna a su derecha (no hace falta que sea la de al lado); «al norte de», en cualquier fila más arriba.
 - **Colocar**, **notas** (las iniciales de quien podría estar en cada casilla) y **tachar**; deshacer, comprobar y pistas
   opcionales, que enseñan el siguiente paso de la deducción.
 

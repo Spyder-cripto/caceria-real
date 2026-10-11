@@ -2842,7 +2842,7 @@ dialog::backdrop{background:rgba(44,37,49,.45)}
       '<p>• Coloca a los sospechosos según sus pistas; la víctima va en la casilla que queda libre.</p>' +
       '<p>• El <b>asesino</b> es la única persona que estaba en la misma zona que la víctima.</p>' +
       (C.sinVacias ? '<p>• <b>Ninguna zona se quedó vacía.</b></p>' : '') +
-      '<p>• «Al lado de» es en una casilla vecina: arriba, abajo, a la izquierda o a la derecha (en diagonal no vale). «Al este» es más a la derecha; «al norte», más arriba.</p>' +
+      '<p>• «Al lado de» es en una casilla vecina: arriba, abajo, a la izquierda o a la derecha (en diagonal no vale). «Al este de» es en <b>cualquier</b> columna a su derecha (no hace falta que sea la de al lado), y «al norte de», en cualquier fila más arriba.</p>' +
       `<h3>Regla especial: ${U.regla}</h3><div style="display:flex;gap:12px;align-items:center"><svg viewBox="0 0 100 100" style="width:64px;height:64px;flex:none" aria-hidden="true">${iconoRegla()}</svg><p style="margin:0">${U.textoRegla}</p></div>${clases}` +
       `<h3>Objetos</h3><div class="obj">${si.length ? `<div class="si"><b>Se pueden ocupar</b><div class="lista">${si.map(fig).join('')}</div></div>` : ''}<div class="no"><b>No se pueden ocupar</b><div class="lista">${no.map(fig).join('')}</div></div></div>` +
       '<h3>Cómo se juega</h3><p><b>Colocar</b>: toca un retrato y luego una casilla. Para moverlo, toca otra casilla; para quitarlo, toca su ficha dos veces.</p>' +
